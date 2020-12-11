@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name = "keywords" content = "">
+	<meta name = "discription" content = "">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="fonts/geometria/stylesheet.css">
+	<link rel="stylesheet" href="libs/DataRange/dist/daterangepicker.css">
+	<title>Statistic</title> 
+</head>
+<body>
+	<div class="wrapper-inner-page"> 
+		<div class="inner-page-header">
+			<div class="inner-logo-block">
+				<a href="#" class="mobile-burger-button">
+					<img class = "mobile-burger-menu" src="img/inner-burger-menu.png" alt="burger-menu">
+				</a>
+				<a href="dashboard.html" class="inner-logo-link">
+					<img class = "inner-logo" src="img/inner-logo.png" alt="inner-logo">
+				</a>
+				<a href="dialog.html" class="mobile-telegram-link">
+					<img src="img/icon-telegram.png" alt="icon-telegram">
+				</a>
+			</div>
+			<div class="inner-header-content">
+				<div class="inner-header-navigation">
+					<div class="inner-header-wrap-left">
+						<a href="#" class="desctop-burger-button">
+							<img class = "inner-burger-menu" src="img/inner-burger-menu.png" alt="burger-menu">
+						</a>
+						<a href="dialog.html" class="inner-header-button">
+							<svg  
+								class = "inner-telegram-svg" version="1.1" x="0px" y="0px" viewBox="0 0 300 300"
+								style="enable-background:new 0 0 300 300;" xml:space="preserve">
+								<path d="M5.299,144.645l69.126,25.8l26.756,86.047c1.712,5.511,8.451,7.548,12.924,3.891l38.532-31.412   c4.039-3.291,9.792-3.455,14.013-0.391l69.498,50.457c4.785,3.478,11.564,0.856,12.764-4.926L299.823,29.22   c1.31-6.316-4.896-11.585-10.91-9.259L5.218,129.402C-1.783,132.102-1.722,142.014,5.299,144.645z M96.869,156.711l135.098-83.207   c2.428-1.491,4.926,1.792,2.841,3.726L123.313,180.87c-3.919,3.648-6.447,8.53-7.163,13.829l-3.798,28.146   c-0.503,3.758-5.782,4.131-6.819,0.494l-14.607-51.325C89.253,166.16,91.691,159.907,96.869,156.711z"  class="active-path" fill="#FFFFFF"/>
+							</svg>
+							Leo31PH
+						</a>
+						<div class="inner-header-question-text">
+							<p class="question-text-bold">Возникли вопросы?</p>
+							<p class="question-text-thin">Свяжитесь с нашим менеджером!</p>
+						</div>
+					</div>
+					<div class="inner-header-wrap-right">
+						<div class="user-avatar-block">
+							<p class="user-avatar-name">Ив</p>
+							<div class="wrap-user-avatar-purple-mark">
+								<div class="user-avatar-purple-mark"></div>
+							</div>
+							<div class="user-profile-list">
+								<div class="user-profile-list-head">Игорь Воронов</div>
+								<div class="user-profile-list-item">
+									<a href="profile.html" class="user-profile-link">
+										<img class = "user-icon-profile" src="img/user-icon-profile.png" alt="user-icon-profile">
+										Профиль
+									</a>
+								</div>
+								<div class="user-profile-list-item">
+									<a href="payment_requzit.html" class="user-profile-link">
+										<img class = "user-icon-payment" src="img/user-icon-payment.png" alt="user-icon-payment">
+										Платежные реквизиты
+									</a>
+								</div>
+								<div class="user-profile-list-item">
+									<a href="settings.html" class="user-profile-link">
+										<img class = "user-icon-settings" src="img/user-icon-settings.png" alt="user-icon-settings">
+										Настройки
+									</a>
+								</div>
+								<div class="user-profile-list-item border-none">
+									<a href="#" class="user-profile-link">
+										<img class = "user-icon-tickets" src="img/support-inner-icon.png" alt="support-inner-icon">
+										Тикеты
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="user-avatar-text-block">
+							<p class="user-avatar-text-balance">Баланс</p>
+							<p class="user-avatar-text-digital">2 034$</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inner-page-content">
+			<div class="inner-page-sidebar">
+				<div class="sidebar-header">
+					<div class="panel-item-purple-bock"></div>
+					<a href="dashboard.html" class="main-panel-link">
+						<img class = "case-icon" src="img/case-icon.png" alt="case-icon">
+						Главная панель
+					</a>
+				</div>
+				<div class="sidebar-content">
+					<div class="sidebar-main-news-item">
+						<a href="news.html" class="sidebar-news-link link-mobile-nav">
+							<img class = "news-inner-icon" src="img/news-inner-icon.png" alt="news-inner-icon">
+							Новости
+						</a>
+					</div>
+					<div class="sidebar-main-sites-item">
+						<a href="sites.html" class="sidebar-sites-link link-mobile-nav">
+							<img class = "sites-inner-icon" src="img/sites-inner-icon.png" alt="sites-inner-icon">
+							Площадки
+						</a>
+					</div>
+					<div class="sidebar-main-statistic-item" data-statistic-list = "open">
+						<a href="#" class="sidebar-statistic-link statistic-list-head">
+							<img class = "statistic-inner-icon" src="img/statistic-inner-icon.png" alt="statistic-inner-icon">
+							Статистика
+						</a>
+						<div class="sidebar-statistic-body-item">
+							<a class = "sidebar-statistic-body-link link-mobile-nav" href="#">По площадкам</a>
+							<a class = "sidebar-statistic-body-link link-mobile-nav" href="rev_share.html">По RevShare</a>
+							<a class = "sidebar-statistic-body-link link-mobile-nav" href="sub_1.html">По Sub1</a>
+							<a class = "sidebar-statistic-body-link link-mobile-nav" href="my_subscriptions.html">Мои подписки</a>
+						</div>
+					</div>
+					<div class="sidebar-main-fifnance-item">
+						<a href="finance.html" class="sidebar-fifnance-link link-mobile-nav">
+							<img class = "finance-inner-icon" src="img/finance-inner-icon.png" alt="finance-inner-icon">
+							Финансы
+						</a>
+					</div>
+					<div class="sidebar-main-support-item">
+						<a href="support.html" class="sidebar-support-link link-mobile-nav">
+							<img class = "support-inner-icon" src="img/support-inner-icon.png" alt="support-inner-icon">
+							Поддержка
+						</a>
+					</div>
+					<div class="sidebar-main-ref-sistem-item">
+						<a href="ref_system.html" class="sidebar-ref-sistem-link link-mobile-nav">
+							<img class = "ref-sistem-inner-icon" src="img/ref-sistem-inner-icon.png" alt="ref-sistem-inner-icon">
+							Реф. Система
+						</a>
+					</div>
+					<div class="sidebar-main-faq-item">
+						<a href="faq.html" class="sidebar-faq-link link-mobile-nav">
+							<img class = "faq-inner-icon" src="img/faq-inner-icon.png" alt="faq-inner-icon">
+							FAQ
+						</a>
+					</div>
+					<div class="sidebar-main-cost-item">
+						<a href="cost_cpl.html" class="sidebar-cost-link link-mobile-nav">
+							<img class = "cost-inner-icon" src="img/cost-inner-icon.png" alt="cost-inner-icon">
+							Расценки RS & CPL
+						</a>
+					</div>
+					<div class="wrap-sidebar-button">
+						<a href="#" class="sidebar-button-telegram">
+							<svg  
+								class = "sidebar-telegram-svg" version="1.1" x="0px" y="0px" viewBox="0 0 300 300" 
+								style="enable-background:new 0 0 300 300;" xml:space="preserve">
+								<path d="M5.299,144.645l69.126,25.8l26.756,86.047c1.712,5.511,8.451,7.548,12.924,3.891l38.532-31.412   c4.039-3.291,9.792-3.455,14.013-0.391l69.498,50.457c4.785,3.478,11.564,0.856,12.764-4.926L299.823,29.22   c1.31-6.316-4.896-11.585-10.91-9.259L5.218,129.402C-1.783,132.102-1.722,142.014,5.299,144.645z M96.869,156.711l135.098-83.207   c2.428-1.491,4.926,1.792,2.841,3.726L123.313,180.87c-3.919,3.648-6.447,8.53-7.163,13.829l-3.798,28.146   c-0.503,3.758-5.782,4.131-6.819,0.494l-14.607-51.325C89.253,166.16,91.691,159.907,96.869,156.711z"  class="active-path"/>
+							</svg>
+							Telegram-чат
+						</a>
+						<a href="index.html" class="sidebar-button-exit">
+							<svg 
+								class = "sidebar-exit-svg" version="1.1" x="0px" y="0px" viewBox="0 0 533.333 533.333" style="enable-background:new 0 0 533.333 533.333;" 
+								xml:space="preserve"><path d="M416.667,333.333v-66.666H250V200h166.667v-66.667l100,100L416.667,333.333z M383.333,300v133.333H216.667v100l-200-100V0   h366.667v166.667H350V33.333H83.333L216.667,100v300H350V300H383.333z"/>
+							</svg>
+							Выход
+						</a>
+						<a href="#" class="sidebar-button-admin">
+							<svg 
+								class = "sidebar-exit-svg" version="1.1" x="0px" y="0px" viewBox="0 0 533.333 533.333" style="enable-background:new 0 0 533.333 533.333;" 
+								xml:space="preserve"><path d="M416.667,333.333v-66.666H250V200h166.667v-66.667l100,100L416.667,333.333z M383.333,300v133.333H216.667v100l-200-100V0   h366.667v166.667H350V33.333H83.333L216.667,100v300H350V300H383.333z"/>
+							</svg>
+							ADMIN
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- Main-content -->
+			<div class="inner-page-main-content statistic">
+				<div class="wrap-inner-page-title statistic">
+					<div class="wrap-inner-page-title-mob-statistic">
+						<h2 class="inner-page-main-title">Статистика по площадкам</h2>
+					</div>
+					<div class="statistic-search-wrap">
+						<form class = "form-statistic-search">
+							 <input class = "statistic-input-search" type="text" placeholder="Поиск">
+							 <button class = "statistic-form-button" type="submit">
+							 	<svg 
+									class = "icon-search-svg" version="1.1" x="0px" y="0px"
+									viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve">
+									<path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
+									s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
+									c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
+									s-17-7.626-17-17S14.61,6,23.984,6z"/>
+								</svg>
+							 </button>
+						</form>
+					</div>
+				</div>
+				<form class="statistic-form">
+					<div class="statistic-wrap-top-content">
+						<div class="statistic-wrap-top-content-left">
+							<a href="#" class="statistic-content-left-button active">Дням</a>
+							<a href="#" class="statistic-content-left-button">Часам</a>
+							<a href="#" class="statistic-content-left-button">Странам</a>
+							<a href="#" class="statistic-content-left-button">Платформам</a>
+							<a href="#" class="statistic-content-left-button">Браузерам</a>
+							<a href="#" class="statistic-content-left-button">Площадкам</a>
+							<a href="#" class="statistic-content-left-button">Лендингам</a>
+							<a href="#" class="statistic-content-left-button button-mob-hide">Sub1</a>
+							<a href="#" class="statistic-content-left-button button-mob-hide">Sub2</a>
+							<a href="#" class="statistic-content-left-button button-mob-hide">Sub3</a>
+							<a href="#" class="statistic-content-left-button button-mob-hide">Sub4</a>
+						</div>
+						<div class="statistic-wrap-top-content-right">
+							<div class="statistic-content-right-top-input">
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Выберите период</p>
+									<div class="wrap-select-date">
+										<div class="calendar-select-block">
+											<svg 
+												class = "icon-calendar-svg" version="1.1" x="0px" y="0px"
+												viewBox="0 0 488.152 488.152" style="enable-background:new 0 0 488.152 488.152;" xml:space="preserve"><path d="M177.854,269.311c0-6.115-4.96-11.069-11.08-11.069h-38.665c-6.113,0-11.074,4.954-11.074,11.069v38.66c0,6.123,4.961,11.079,11.074,11.079h38.665c6.12,0,11.08-4.956,11.08-11.079V269.311L177.854,269.311z"/><path d="M274.483,269.311c0-6.115-4.961-11.069-11.069-11.069h-38.67c-6.113,0-11.074,4.954-11.074,11.069v38.66c0,6.123,4.961,11.079,11.074,11.079h38.67c6.108,0,11.069-4.956,11.069-11.079V269.311z"/><path d="M371.117,269.311c0-6.115-4.961-11.069-11.074-11.069h-38.665c-6.12,0-11.08,4.954-11.08,11.069v38.66c0,6.123,4.96,11.079,11.08,11.079h38.665c6.113,0,11.074-4.956,11.074-11.079V269.311z"/><path d="M177.854,365.95c0-6.125-4.96-11.075-11.08-11.075h-38.665c-6.113,0-11.074,4.95-11.074,11.075v38.653c0,6.119,4.961,11.074,11.074,11.074h38.665c6.12,0,11.08-4.956,11.08-11.074V365.95L177.854,365.95z"/><path d="M274.483,365.95c0-6.125-4.961-11.075-11.069-11.075h-38.67c-6.113,0-11.074,4.95-11.074,11.075v38.653c0,6.119,4.961,11.074,11.074,11.074h38.67c6.108,0,11.069-4.956,11.069-11.074V365.95z"/><path d="M371.117,365.95c0-6.125-4.961-11.075-11.069-11.075h-38.67c-6.12,0-11.08,4.95-11.08,11.075v38.653c0,6.119,4.96,11.074,11.08,11.074h38.67c6.108,0,11.069-4.956,11.069-11.074V365.95L371.117,365.95z"/><path d="M440.254,54.354v59.05c0,26.69-21.652,48.198-48.338,48.198h-30.493c-26.688,0-48.627-21.508-48.627-48.198V54.142h-137.44v59.262c0,26.69-21.938,48.198-48.622,48.198H96.235c-26.685,0-48.336-21.508-48.336-48.198v-59.05C24.576,55.057,5.411,74.356,5.411,98.077v346.061c0,24.167,19.588,44.015,43.755,44.015h389.82c24.131,0,43.755-19.889,43.755-44.015V98.077C482.741,74.356,463.577,55.057,440.254,54.354z M426.091,422.588c0,10.444-8.468,18.917-18.916,18.917H80.144c-10.448,0-18.916-8.473-18.916-18.917V243.835c0-10.448,8.467-18.921,18.916-18.921h327.03c10.448,0,18.916,8.473,18.916,18.921L426.091,422.588L426.091,422.588z"/><path d="M96.128,129.945h30.162c9.155,0,16.578-7.412,16.578-16.567V16.573C142.868,7.417,135.445,0,126.29,0H96.128C86.972,0,79.55,7.417,79.55,16.573v96.805C79.55,122.533,86.972,129.945,96.128,129.945z"/><path d="M361.035,129.945h30.162c9.149,0,16.572-7.412,16.572-16.567V16.573C407.77,7.417,400.347,0,391.197,0h-30.162c-9.154,0-16.577,7.417-16.577,16.573v96.805C344.458,122.533,351.881,129.945,361.035,129.945z"/>
+											</svg>
+										</div>
+										<div class="date-range">
+											<input class = "date-range-input" type="text" id = "dom-id" value = "2019.11.4 - 2019.11.4">
+										</div>
+									</div>
+								</div>
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Страна</p>
+									<select class = "statistic-select">
+										<option value="">Все страны</option>
+										<option value="">Страна</option>
+										<option value="">Страна</option>
+										<option value="">Страна</option>
+										<option value="">Страна</option>
+									</select>
+								</div>
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Браузер</p>
+									<select class = "statistic-select">
+										<option value="">Все</option>
+										<option value="">some browser</option>
+										<option value="">some browser</option>
+										<option value="">some browser</option>
+										<option value="">some browser</option>
+									</select>
+								</div>
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Площадка</p>
+									<select class = "statistic-select">
+										<option value="">другие</option>
+										<option value="">другие</option>
+										<option value="">другие</option>
+										<option value="">другие</option>
+										<option value="">другие</option>
+									</select>
+								</div>
+							</div>
+							<div class="statistic-content-right-bottom-input">
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Sub1</p>
+									<select class = "statistic-select">
+										<option value="">Sub1</option>
+										<option value="">Sub1</option>
+										<option value="">Sub1</option>
+										<option value="">Sub1</option>
+										<option value="">Sub1</option>
+									</select>
+								</div>
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Sub2</p>
+									<select class = "statistic-select">
+										<option value="">Sub2</option>
+										<option value="">Sub2</option>
+										<option value="">Sub2</option>
+										<option value="">Sub2</option>
+										<option value="">Sub2</option>
+									</select>
+								</div>
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Sub3</p>
+									<select class = "statistic-select">
+										<option value="">Sub3</option>
+										<option value="">Sub3</option>
+										<option value="">Sub3</option>
+										<option value="">Sub3</option>
+										<option value="">Sub3</option>
+									</select>
+								</div>
+								<div class="content-right-top-input-wrap">
+									<p class="text-input-statistic">Sub4</p>
+									<select class = "statistic-select">
+										<option value="">Sub4</option>
+										<option value="">Sub4</option>
+										<option value="">Sub4</option>
+										<option value="">Sub4</option>
+										<option value="">Sub4</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="statistic-block-add-file">
+						<div class="statistic-block-add-file-left">
+							<a href="#" class="statistic-link-exel">
+								<svg 
+									class = "icon-excel-svg" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+									<path style="fill:#ECEFF1;" d="M496,432.011H272c-8.832,0-16-7.168-16-16s0-311.168,0-320s7.168-16,16-16h224
+									c8.832,0,16,7.168,16,16v320C512,424.843,504.832,432.011,496,432.011z"/><path style="fill:#388E3C;" d="M336,176.011h-64c-8.832,0-16-7.168-16-16s7.168-16,16-16h64c8.832,0,16,7.168,16,16
+									S344.832,176.011,336,176.011z"/><path style="fill:#388E3C;" d="M336,240.011h-64c-8.832,0-16-7.168-16-16s7.168-16,16-16h64c8.832,0,16,7.168,16,16
+									S344.832,240.011,336,240.011z"/><path style="fill:#388E3C;" d="M336,304.011h-64c-8.832,0-16-7.168-16-16s7.168-16,16-16h64c8.832,0,16,7.168,16,16
+									S344.832,304.011,336,304.011z"/><path style="fill:#388E3C;" d="M336,368.011h-64c-8.832,0-16-7.168-16-16s7.168-16,16-16h64c8.832,0,16,7.168,16,16
+									S344.832,368.011,336,368.011z"/><path style="fill:#388E3C;" d="M432,176.011h-32c-8.832,0-16-7.168-16-16s7.168-16,16-16h32c8.832,0,16,7.168,16,16
+									S440.832,176.011,432,176.011z"/><path style="fill:#388E3C;" d="M432,240.011h-32c-8.832,0-16-7.168-16-16s7.168-16,16-16h32c8.832,0,16,7.168,16,16
+									S440.832,240.011,432,240.011z"/><path style="fill:#388E3C;" d="M432,304.011h-32c-8.832,0-16-7.168-16-16s7.168-16,16-16h32c8.832,0,16,7.168,16,16
+									S440.832,304.011,432,304.011z"/><path style="fill:#388E3C;" d="M432,368.011h-32c-8.832,0-16-7.168-16-16s7.168-16,16-16h32c8.832,0,16,7.168,16,16
+									S440.832,368.011,432,368.011z"/><path style="fill:#2E7D32;" d="M282.208,19.691c-3.648-3.04-8.544-4.352-13.152-3.392l-256,48C5.472,65.707,0,72.299,0,80.011v352
+									c0,7.68,5.472,14.304,13.056,15.712l256,48c0.96,0.192,1.952,0.288,2.944,0.288c3.712,0,7.328-1.28,10.208-3.68
+									c3.68-3.04,5.792-7.584,5.792-12.32v-448C288,27.243,285.888,22.731,282.208,19.691z"/><path style="fill:#FAFAFA;" d="M220.032,309.483l-50.592-57.824l51.168-65.792c5.44-6.976,4.16-17.024-2.784-22.464
+									c-6.944-5.44-16.992-4.16-22.464,2.784l-47.392,60.928l-39.936-45.632c-5.856-6.72-15.968-7.328-22.56-1.504
+									c-6.656,5.824-7.328,15.936-1.504,22.56l44,50.304L83.36,310.187c-5.44,6.976-4.16,17.024,2.784,22.464
+									c2.944,2.272,6.432,3.36,9.856,3.36c4.768,0,9.472-2.112,12.64-6.176l40.8-52.48l46.528,53.152
+									c3.168,3.648,7.584,5.504,12.032,5.504c3.744,0,7.488-1.312,10.528-3.968C225.184,326.219,225.856,316.107,220.032,309.483z"/>
+								</svg>
+								<span class = "statistic-hide-text">EXCEL</span>
+							</a>
+							<a href="#" class="statistic-link-pdf">
+								<svg 
+									class = "icon-pdf-svg" version="1.1" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve"><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,1h40.074
+									c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,36.985,0z"/><polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/>
+									<path style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326
+									c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75
+									c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172
+									c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,7.562
+									c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,2.16
+									c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,2.822
+									c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198
+									c-2.137,1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,28.198zM35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,0.23-0.415c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174c-0.715,2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,17.174z
+									M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/><path style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,48.037,56z"/><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,0.205
+									c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306
+									c0,0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656
+									s-0.921,0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103
+									c0.196-0.068,0.376-0.18,0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032
+									c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492
+									c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/><path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937
+									s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035
+									c0.848,0,1.593,0.135,2.235,0.403s1.176,0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z
+									M27.352,51.797c1.112,0,1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244
+									c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/>
+									<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/>
+								</svg>
+								<span class = "statistic-hide-text">PDF</span>
+							</a>
+							<a href="#" class="statistic-link-csv">
+								<svg 
+									class = "icon-csv-svg" version="1.1" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
+									<path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,1h40.074c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,36.985,0z"/><polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/><path style="fill:#F36FA0;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,48.037,56z"/><path style="fill:#FFFFFF;" d="M21.58,51.975c-0.374,0.364-0.798,0.638-1.271,0.82c-0.474,0.183-0.984,0.273-1.531,0.273
+									c-0.602,0-1.155-0.109-1.661-0.328s-0.948-0.542-1.326-0.971c-0.378-0.429-0.675-0.966-0.889-1.613
+									c-0.214-0.647-0.321-1.395-0.321-2.242s0.107-1.593,0.321-2.235c0.214-0.643,0.51-1.178,0.889-1.606
+									c0.378-0.429,0.822-0.754,1.333-0.978c0.51-0.224,1.062-0.335,1.654-0.335c0.547,0,1.057,0.091,1.531,0.273
+									c0.474,0.183,0.897,0.456,1.271,0.82l-1.135,1.012c-0.228-0.265-0.481-0.456-0.759-0.574c-0.278-0.118-0.567-0.178-0.868-0.178c-0.337,0-0.659,0.063-0.964,0.191c-0.306,0.128-0.579,0.344-0.82,0.649c-0.242,0.306-0.431,0.699-0.567,1.183s-0.21,1.075-0.219,1.777c0.009,0.684,0.08,1.267,0.212,1.75c0.132,0.483,0.314,0.877,0.547,1.183s0.497,0.528,0.793,0.67c0.296,0.142,0.608,0.212,0.937,0.212s0.636-0.06,0.923-0.178s0.549-0.31,0.786-0.574L21.58,51.975z"/>
+									<path style="fill:#FFFFFF;" d="M29.633,50.238c0,0.364-0.075,0.718-0.226,1.06s-0.362,0.643-0.636,0.902s-0.611,0.467-1.012,0.622c-0.401,0.155-0.857,0.232-1.367,0.232c-0.219,0-0.444-0.012-0.677-0.034s-0.467-0.062-0.704-0.116
+									c-0.237-0.055-0.463-0.13-0.677-0.226c-0.214-0.096-0.399-0.212-0.554-0.349l0.287-1.176c0.127,0.073,0.289,0.144,0.485,0.212c0.196,0.068,0.398,0.132,0.608,0.191c0.209,0.06,0.419,0.107,0.629,0.144c0.209,0.036,0.405,0.055,0.588,0.055c0.556,0,0.982-0.13,1.278-0.39c0.296-0.26,0.444-0.645,0.444-1.155c0-0.31-0.105-0.574-0.314-0.793
+									c-0.21-0.219-0.472-0.417-0.786-0.595s-0.654-0.355-1.019-0.533c-0.365-0.178-0.707-0.388-1.025-0.629
+									c-0.319-0.241-0.583-0.526-0.793-0.854c-0.21-0.328-0.314-0.738-0.314-1.23c0-0.446,0.082-0.843,0.246-1.189
+									s0.385-0.641,0.663-0.882c0.278-0.241,0.602-0.426,0.971-0.554s0.759-0.191,1.169-0.191c0.419,0,0.843,0.039,1.271,0.116c0.428,0.077,0.774,0.203,1.039,0.376c-0.055,0.118-0.119,0.248-0.191,0.39c-0.073,0.142-0.142,0.273-0.205,0.396c-0.064,0.123-0.119,0.226-0.164,0.308c-0.046,0.082-0.073,0.128-0.082,0.137c-0.055-0.027-0.116-0.063-0.185-0.109s-0.167-0.091-0.294-0.137c-0.128-0.046-0.296-0.077-0.506-0.096c-0.21-0.019-0.479-0.014-0.807,0.014
+									c-0.183,0.019-0.355,0.07-0.52,0.157s-0.31,0.193-0.438,0.321c-0.128,0.128-0.228,0.271-0.301,0.431
+									c-0.073,0.159-0.109,0.313-0.109,0.458c0,0.364,0.104,0.658,0.314,0.882c0.209,0.224,0.469,0.419,0.779,0.588
+									c0.31,0.169,0.647,0.333,1.012,0.492c0.364,0.159,0.704,0.354,1.019,0.581s0.576,0.513,0.786,0.854
+									C29.528,49.261,29.633,49.7,29.633,50.238z"/><path style="fill:#FFFFFF;" d="M34.035,53.055l-3.131-10.131h1.873l2.338,8.695l2.475-8.695h1.859l-3.281,10.131H34.035z"/><path style="fill:#C8BDB8;" d="M23.5,16v-4h-12v4v2v2v2v2v2v2v2v4h10h2h21v-4v-2v-2v-2v-2v-2v-4H23.5z M13.5,14h8v2h-8V14z
+									M13.5,18h8v2h-8V18z M13.5,22h8v2h-8V22z M13.5,26h8v2h-8V26z M21.5,32h-8v-2h8V32z M42.5,32h-19v-2h19V32z M42.5,28h-19v-2h19V28z M42.5,24h-19v-2h19V24z M23.5,20v-2h19v2H23.5z"/>
+								</svg>
+								<span class = "statistic-hide-text">CSV</span>
+							</a>
+						</div>
+						<div class="statistic-block-add-file-right">
+							<a href="#" class="statistic-button-enter">применить</a>
+						</div>
+					</div>
+				</form>
+				<div class="statistic-block-table">
+					<table class="statistic-table">
+						<tr>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-bottom" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Дата
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Переходы
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Уники
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Ратио
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Подписки
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Отписки
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Выкуп,$
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Клики
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								RevShare,$
+							</th>
+							<th class="statistic-th">
+								<svg 
+									class = "icon-table-arrow-top" version="1.1" x="0px" y="0px"
+									viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+									<path d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+									c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+									l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+									C479.793,292.501,480.71,287.915,479.046,283.925z"/>
+								</svg>
+								Доход,$
+							</th>
+						</tr>
+						<tr>
+							<td class="statistic-td">2019-10-03</td>
+							<td class="statistic-td">1014542</td>
+							<td class="statistic-td">336560</td>
+							<td class="statistic-td">1:12 (8.47%)</td>
+							<td class="statistic-td">28523</td>
+							<td class="statistic-td">0</td>
+							<td class="statistic-td">8.454</td>
+							<td class="statistic-td">27099</td>
+							<td class="statistic-td">50.946</td>
+							<td class="statistic-td">59.400</td>
+						</tr>
+						<tr>
+							<td class="statistic-td">2019-10-03</td>
+							<td class="statistic-td">1014542</td>
+							<td class="statistic-td">336560</td>
+							<td class="statistic-td">1:12 (8.47%)</td>
+							<td class="statistic-td">28523</td>
+							<td class="statistic-td">0</td>
+							<td class="statistic-td">8.454</td>
+							<td class="statistic-td">27099</td>
+							<td class="statistic-td">50.946</td>
+							<td class="statistic-td">59.400</td>
+						</tr>
+						<tr>
+							<td class="statistic-td">2019-10-03</td>
+							<td class="statistic-td">1014542</td>
+							<td class="statistic-td">336560</td>
+							<td class="statistic-td">1:12 (8.47%)</td>
+							<td class="statistic-td">28523</td>
+							<td class="statistic-td">0</td>
+							<td class="statistic-td">8.454</td>
+							<td class="statistic-td">27099</td>
+							<td class="statistic-td">50.946</td>
+							<td class="statistic-td">59.400</td>
+						</tr>
+						<tr>
+							<td class="statistic-td">2019-10-03</td>
+							<td class="statistic-td">1014542</td>
+							<td class="statistic-td">336560</td>
+							<td class="statistic-td">1:12 (8.47%)</td>
+							<td class="statistic-td">28523</td>
+							<td class="statistic-td">0</td>
+							<td class="statistic-td">8.454</td>
+							<td class="statistic-td">27099</td>
+							<td class="statistic-td">50.946</td>
+							<td class="statistic-td">59.400</td>
+						</tr>
+						<tr>
+							<td class="statistic-td">2019-10-03</td>
+							<td class="statistic-td">1014542</td>
+							<td class="statistic-td">336560</td>
+							<td class="statistic-td">1:12 (8.47%)</td>
+							<td class="statistic-td">28523</td>
+							<td class="statistic-td">0</td>
+							<td class="statistic-td">8.454</td>
+							<td class="statistic-td">27099</td>
+							<td class="statistic-td">50.946</td>
+							<td class="statistic-td">59.400</td>
+						</tr>
+						<tr class = "bottom-row-table">
+							<td class="statistic-td">
+								<span class = "table-bold-text">Всего</span>
+							</td>
+							<td class="statistic-td">1014542</td>
+							<td class="statistic-td">336560</td>
+							<td class="statistic-td">1:12 (8.47%)</td>
+							<td class="statistic-td">28523</td>
+							<td class="statistic-td">0</td>
+							<td class="statistic-td">8.454</td>
+							<td class="statistic-td">27099</td>
+							<td class="statistic-td">50.946</td>
+							<td class="statistic-td">59.400</td>
+						</tr>
+					</table>
+					<div class="table-bottom-bg"></div>
+				</div>
+				<div class="wrap-statistic-pagination">
+					<div class="statistic-pagination-main-block">
+						<button class="pagination-prev"><span class = "pagination-hide-text">Предыдущая</span></button>
+							<div class="pagination-item-pages-block">
+								<button class="pagination-item-pages">1</button>
+								<button class="pagination-item-pages active">2</button>
+								<button class="pagination-item-pages">3</button>
+							</div>
+						<button class="pagination-next"><span class = "pagination-hide-text">Следующая</span></button>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<div class="menu-dark-background"></div>
+	</div>
+	<!-- Scipts -->
+	<script src = "libs/Moment-js/moment.js"></script>
+	<script src = "libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src = "libs/jquery_collapser/jquery.collapser.js"></script>
+	<script src = "libs/DataRange/dist/jquery.daterangepicker.min.js"></script>
+	<script src = "js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+/*....................About-system......................*/
+
+.block-about-system{
+	width: 100%;
+	background-color: #e9ebf3;
+	padding-bottom: 18px;
+}
+
+.about-system-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 45px 0 10px 0;
+
+	@media (min-width: 700px){
+		padding: 45px 0 47px 0;
+	} 
+}
+
+.about-system-title{
+	text-transform: uppercase;
+	font-family: 'geometria', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #303030; 
+	text-align: center;
+	margin: 0 0 30px 0;
+
+	@media (min-width: 700px){
+		font-size: 30px;
+		margin: 0 0 50px 0; 
+	} 
+}
+
+.about-system-wrap-card{
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media (min-width: 400px){
+		width: 80%;
+	} 
+
+	@media (min-width: 480px){
+		width: 70%;
+	} 
+
+	@media (min-width: 700px){
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.about-system-card{
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	box-shadow: 3px 5px 40px 0px rgba(0, 0, 0, 0.15);
+	padding: 0 15px 40px 15px;
+	margin-bottom: 20px;
+
+	@media (min-width: 700px){
+		width: 32%;
+		padding: 0 15px 50px 15px;
+		margin-bottom: 0;
+
+		&:before{
+			content: "";
+			display: block;
+			width: 87%;
+			height: 15px;
+			background-color: #D2D3DB; 
+			position: absolute;
+			top: -16px;
+			left: 6.5%;
+			z-index: 0;
+		}
+
+	&:after{
+			content: "";
+			display: block;
+			width: 87%;
+			height: 17px;
+			background-color: #D2D3DB; 
+			position: absolute;
+			bottom: -18px;
+			left: 6.5%;
+			z-index: 0;
+		}
+	}
+}
+
+.system-card-icon{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0 20px 10px;
+}
+
+.system-card-title{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px 0 10px 0;
+}
+
+.card-title{
+	text-transform: uppercase;
+	font-family: 'geometria', sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #303030; 
+	text-align: center;
+	margin: 0 0 23px 0;
+}
+
+.color-line{
+	width: 60px;
+	height: 4px;
+	background: linear-gradient(to right, #662d8c, #db1c72);
+}
+
+.system-card-text{
+	width: 100%;
+	text-align: center;
+	padding-top: 17px;
+}
+
+.card-text{
+	font-family: 'geometria', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+	color: #303030; 
+	text-align: center;
+	margin: 0 0 7px 0;
+}
+
+.push-link{
+	color: #ff2400;
+}
+
+

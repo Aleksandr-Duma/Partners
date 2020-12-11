@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'geometria', sans-serif;
+    src: url('geometria-bold-webfont.eot');
+    src: url('geometria-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geometria-bold-webfont.woff2') format('woff2'),
+         url('geometria-bold-webfont.woff') format('woff'),
+         url('geometria-bold-webfont.svg#geometriabold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'geometria', sans-serif;
+    src: url('geometria-heavy-webfont.eot');
+    src: url('geometria-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geometria-heavy-webfont.woff2') format('woff2'),
+         url('geometria-heavy-webfont.woff') format('woff'),
+         url('geometria-heavy-webfont.svg#geometriaheavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'geometria', sans-serif;
+    src: url('geometria-regular-webfont.eot');
+    src: url('geometria-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geometria-regular-webfont.woff2') format('woff2'),
+         url('geometria-regular-webfont.woff') format('woff'),
+         url('geometria-regular-webfont.svg#geometriaregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}

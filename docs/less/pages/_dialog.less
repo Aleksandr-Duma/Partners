@@ -1,0 +1,278 @@
+/*.................Dialog-pages...............*/
+
+.inner-page-main-content.dialog{
+	padding: 0 0 100px 0;
+
+	@media (min-width: 700px){
+		padding: 0 20px 0 20px;
+	}
+
+	@media (min-width: 1200px){
+		padding: 0 50px 0 50px;
+	}
+}
+
+.wrap-inner-page-title.dialog{
+	padding: 5px 0 5px 10px;
+	margin-bottom: 15px;
+
+	@media (min-width: 700px){
+		padding: 12px 0 12px 0;
+		margin-bottom: 30px;
+	}
+}
+
+.wrap-dialog-content{
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 5px 0px 40px 0px rgba(14, 12, 86, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 10px 30px 10px;
+
+	@media (min-width: 700px){
+		padding: 20px;
+	}
+
+	@media (min-width: 1200px){
+		padding: 50px;
+	}
+}
+
+.block-question-wrap{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 20px;
+
+	@media (min-width: 1200px){
+		margin-bottom: 10px;
+	}
+}
+
+.block-question{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #d2d5dc;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	padding: 0 20px 0 20px;
+
+	&:before{
+		content: "";
+		position: absolute; 
+		width: 0; 
+		height: 0; 
+		right: -1px; 
+		top: 49px; 
+		border: 6px solid; 
+		border-color: #d2d5dc #d2d5dc transparent transparent;
+	}
+
+	&:after{
+		content: "";
+		position: absolute; 
+		width: 0; 
+		height: 0; 
+		right: 0px; 
+		top: 43px; 
+		border: 8px solid; 
+		border-color: #fff #fff transparent transparent;
+	}
+
+	@media (min-width: 700px){
+		width: 320px;
+		height: 50px;
+	}
+}
+
+.time-text{
+	text-transform: uppercase;
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.8;
+	font-size: 12px;
+	color: #818181;
+}
+
+.question-text{
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.1;
+	font-size: 14px;
+	color: #303030;
+}
+
+.block-answer-wrap{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 30px;
+
+	@media (min-width: 700px){
+		margin-bottom: 60px
+	}
+}
+
+.block-answer{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #d2d5dc;
+	background-color: #e9ebf3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	padding: 0 20px 0 20px;
+
+	&:before{
+		content: "";
+		position: absolute; 
+		width: 0; 
+		height: 0; 
+		left: -1px; 
+		top: 49px; 
+		border: 6px solid; 
+		border-color: #d2d5dc transparent transparent #d2d5dc ;	
+	}
+
+	&:after{
+		content: "";
+		position: absolute; 
+		width: 0; 
+		height: 0; 
+		left: 0px; 
+		top: 43px; 
+		border: 8px solid; 
+		border-color: #e9ebf3 transparent transparent  #e9ebf3;
+	}
+
+	@media (min-width: 700px){
+		width: 428px;
+		height: 50px;
+	}
+}
+
+.block-form-dialog-wrap{
+	width: 100%;
+}
+
+.textarea-dialog{
+	width: 100%;
+	min-height: 100px;
+	border: 1px solid #d2d5dc;
+	background-color: #e9ebf3;
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1;
+	font-size: 14px;
+	color: #303030;
+	outline: none;
+	padding: 15px 0 0 20px;
+	resize: none;
+	margin-bottom: 25px;
+
+	@media (min-width: 700px){
+		margin-bottom: 30px;
+	}
+}
+
+.dialog-content-block-button{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media (min-width: 960px){
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.dialog-add-file-block{
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media (min-width: 960px){
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+}
+
+.dialog-choose-file-wrap{
+	width: 300px;
+	height: 55px;
+	background-color: #fff;
+	border: 1px solid #d2d5dc;
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 14px;
+	color: #303030;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	padding-top: 16px;
+	cursor: pointer;
+
+	@media (min-width: 700px){
+		width: 195px;
+		height: 55px;
+		margin-right: 20px;
+	}
+}
+
+.dialog-choose-file-input{
+	width: 100%;
+	height: 100%;
+	position:absolute; 
+    top:12px; 
+    left:0; 
+    opacity: 0;
+    cursor: pointer;
+}
+
+.dialog-choose-file-text{
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.1;
+	font-size: 14px;
+	color: #818181;
+	margin-bottom: 20px;
+}
+
+.dialog-button-submit{
+	width: 300px;
+  	height: 55px;
+  	background: linear-gradient(to right, #662D8C, #7C2CB2);
+  	text-transform: uppercase;
+  	font-family: 'geometria', sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	outline: none;
+	box-shadow: 0px 0px 10px 0px rgba(102, 45, 140, 0.7);
+	cursor: pointer;
+
+	@media (min-width: 700px){
+		width: 195px;
+  		height: 55px;
+	}
+}
+
+
+
+
+
+

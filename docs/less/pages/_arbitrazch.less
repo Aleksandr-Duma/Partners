@@ -1,0 +1,437 @@
+/*................. Arbitrazch-pages ...............*/
+
+.inner-page-main-content.arbitrazch{
+	padding: 0 0 60px 0;
+
+	@media (min-width: 700px){
+		padding: 0 20px 20px 20px;
+	}
+
+	@media (min-width: 1200px){
+		padding: 0 50px 50px 50px;
+	}
+}
+
+.wrap-inner-page-title.arbitrazch{
+	padding: 5px 10px 12px 10px;
+	margin-bottom: 5px;
+
+	@media (min-width: 1200px){
+		padding: 15px 0 12px 0;
+		margin-bottom: 35px;
+	}
+}
+
+.arbitrazch-main-content-block{
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 5px 0px 40px 0px rgba(14, 12, 86, 0.1);
+	padding: 0 10px 0 10px;
+
+	@media (min-width: 1200px){
+		padding: 0 0 0 0;
+	}
+}
+
+.arbitrazch-content-block-head{
+	width: 100%;
+	border-bottom: 2px solid #e9ebf3;
+	padding: 30px 0 30px 0;
+}
+
+.arbitrazch-head-form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media (min-width: 1200px){
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+.arbitrazch-head-input{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #d2d4db;
+	background-color: #e9ebf3;
+	outline: none;
+	padding-left: 30px;
+	margin: 0 0 10px 0;
+
+	@media (min-width: 1200px){
+		width: 390px;
+		margin: 0 10px 0 10px;
+	}
+}
+
+.arbitrazch-head-input::-webkit-input-placeholder { 
+  font-family: 'geometria', sans-serif; 
+  font-size: 14px;
+  color: #303030;
+}
+
+.arbitrazch-head-input:-moz-placeholder {
+  font-family: 'geometria', sans-serif; 
+  font-size: 14px;
+  color: #303030;
+}
+
+.arbitrazch-head-input:-ms-input-placeholder {
+  font-family: 'geometria', sans-serif; 
+  font-size: 14px;
+  color: #303030;
+}
+
+.select-arbitrazch-head{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #d2d4db;
+	background-color: #e9ebf3;
+	outline: none;
+	font-family: 'geometria', sans-serif; 
+  	font-size: 14px;
+  	color: #303030;
+	padding-left: 30px;
+
+	@media (min-width: 1200px){
+		width: 390px;
+		margin: 0 10px 0 10px;
+	}
+}
+
+.arbitrazch-content-block-body{
+	width: 100%;
+}
+
+.wrap-arbitrazch-content-title{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.arbitrazch-content-title{
+	font-family: 'geometria', sans-serif; 
+	font-weight: 700;
+  	font-size: 18px;
+  	line-height: 1.2;
+  	text-align: center;
+  	color: #303030;
+  	margin: 0;
+  	margin-bottom: 10px;
+}
+
+.under-title-line.arbitrazch{
+	margin-bottom: 10px;
+}
+
+.arbitrazch-content-sub-title{
+	font-family: 'geometria', sans-serif; 
+	font-weight: 400;
+  	font-size: 14px;
+  	line-height: 1.2;
+  	text-align: center;
+  	color: #303030;
+  	margin: 0;
+  	margin-bottom: 10px;
+}
+
+.wrap-arbitrazch-content-landing{
+	width: 100%;
+	border-bottom: 2px solid #e9ebf3;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 0 30px 0;
+	
+	@media (min-width: 700px){
+		padding: 0 30px 30px 30px;
+	}
+}
+
+.arbitrazch-landing-block{
+	width: 298px;
+	height: 198px;
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0 10px 0;
+
+	@media (min-width: 700px){
+		margin: 10px 10px 10px 10px;
+	}
+}
+
+.landing-img{
+	width: 100%;
+	height: 100%;
+}
+
+.check-arbitr{
+    display: none;
+}
+
+.check-arbitr + label{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #d2d4db;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    left: 15px; 
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none; 
+}
+
+.check-arbitr + label:before{
+    content: '✔';
+    font-weight: bold;
+    font-size: 12px;
+    color: #d2d4db;
+}
+
+.check-arbitr:checked + label{
+    border: 2px solid #14cc06;    
+}
+
+.check-arbitr:checked + label:before{
+    color: #14cc06;
+}
+
+.arbitrazch-landing-block-footer{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-family: 'geometria', sans-serif; 
+	font-weight: 400;
+  	font-size: 14px;
+  	line-height: 1.2;
+  	text-align: center;
+  	color: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-left: 20px;
+}
+
+.wrap-arbitrazch-content-bottom{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media (min-width: 1500px){
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}
+
+.arbitrazch-content-bottom-left{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+
+	@media (min-width: 1500px){
+		width: 70%;
+		display: block;
+	}
+}
+
+.arbitrazch-bottom-left-item{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+
+	@media (min-width: 1500px){
+		flex-direction: row;
+		justify-content: flex-start;
+		padding-left: 30px;
+	}
+}
+
+.arbitrazch-bottom-left-wrap-input{
+
+	@media (min-width: 1500px){
+		margin-right: 20px;
+	}
+}
+
+.arbitr-label{
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 14px;
+	text-align: left;
+	color: #303030;
+}
+
+.arbitr-input-footer{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #d2d4db;
+	background-color: #e9ebf3;
+	outline: none;
+	padding-left: 30px;
+	margin: 5px 0 10px 0;
+
+	@media (min-width: 1500px){
+		width: 360px;
+	}
+}
+
+.arbitr-input-footer::-webkit-input-placeholder { 
+  font-family: 'geometria', sans-serif; 
+  font-size: 14px;
+  color: #77787b;
+}
+
+.arbitr-input-footer:-moz-placeholder {
+  font-family: 'geometria', sans-serif; 
+  font-size: 14px;
+  color: #77787b;
+}
+
+.arbitr-input-footer:-ms-input-placeholder {
+  font-family: 'geometria', sans-serif; 
+  font-size: 14px;
+  color: #77787b;
+}
+
+.arbitr-input-select{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #d2d4db;
+	background-color: #e9ebf3;
+	font-family: 'geometria', sans-serif; 
+	font-size: 14px;
+	color: #77787b;
+	outline: none;
+	padding-left: 30px;
+	margin: 5px 0 10px 0;
+
+	@media (min-width: 1500px){
+		width: 360px;
+	}
+}
+
+.arbitrazch-postbac{
+	display: inline;
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 14px;
+	text-align: left;
+	color: #303030;
+	position: relative;
+	margin-right: 70px;
+
+	&:after{
+		content: "?";
+		font-weight: 900;
+		font-size: 12px;
+		width: 18px;
+		height: 18px;
+		border: 2px solid #d2d4db;
+		border-radius: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 0;
+		right: -30px;
+	}
+
+	@media (min-width: 1500px){
+		margin-right: 130px;
+	}
+}
+
+.arbitr-bottom-left-text{
+	display: inline;
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 14px;
+	text-align: left;
+	color: #303030;
+}
+
+.arbitrazch-content-bottom-right{
+	width: 100%;
+	height: 175px;
+	background-color: #e9ebf3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	@media (min-width: 1500px){
+		width: 30%;
+		height: 212px;
+	}
+}
+
+.arbitrazch-bottom-count-landing{
+	width: 260px;
+	height: 55px;
+	border: 1px solid #d2d4db;
+	font-family: 'geometria', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 14px;
+	text-align: center;
+	color: #303030;
+	padding-top: 18px;
+	margin-bottom: 10px;
+}
+
+.arbitrazch-purple-tex{
+	text-transform: uppercase;
+	font-family: 'geometria', sans-serif;
+	font-weight: 900;
+	font-size: 12px;
+	color: #662D8C;
+
+	@media (min-width: 1500px){
+		font-size: 14px;
+	}
+}
+
+.arbitrazch-bottom-button{
+	width: 260px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, #662D8C, #7C2CB2);
+	text-transform: uppercase;
+	font-family: 'geometria', sans-serif;
+	font-weight: 900;
+	line-height: 1.2;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	border: none;
+	outline: none;
+	box-shadow: 0px 0px 10px 0px rgba(102, 45, 140, 0.7);
+	cursor: pointer;
+}
+
