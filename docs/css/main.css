@@ -63,6 +63,7 @@ body {
 }
 @media (min-width: 1060px) {
   .header {
+    height: 100vh;
     background-position: center center;
   }
 }
